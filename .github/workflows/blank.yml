@@ -1,0 +1,44 @@
+DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Blake’s Can & Bottle Recycling</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Blake’s Can & Bottle Recycling</h1>
+    <p>Helping keep our community clean</p>
+  </header>
+
+  <section>
+    <h2>What We Recycle</h2>
+    <ul>
+      <li>Aluminum cans</li>
+      <li>Plastic bottles</li>
+      <li>Glass bottles</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>How It Works</h2>
+    <ol>
+      <li>Collect your returnables</li>
+      <li>Drop them off or schedule a pickup</li>
+      <li>Get paid for your recycling</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:blake@email.com">blake@email.com</a></p>
+  </section>
+
+  <footer>
+    <p>© 2026 Blake’s Recycling</p>
+  </footer>
+
+</body>
+</html>
