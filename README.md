@@ -1,30 +1,125 @@
-# Blake's Can Recycling
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blake's Can & Bottle Recycling</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
 
-Blake's Can Recycling is an initiative to make recycling more accessible and efficient for everyone. By recycling cans, we reduce waste, conserve resources, and help the environment. This repository contains code and guidelines to set up your own can recycling programs with a focus on innovation and effectiveness.
+        header {
+            background-color: #008080; /* Teal */
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
 
----
+        header .logo {
+            max-width: 120px;
+            display: block;
+            margin: 0 auto 10px;
+        }
 
-## Features
-- Easy to use dashboard for tracking recycling metrics.
-- Automated notifications when recycling stations need attending.
-- Analytics and actionable insights on environmental savings.
-- Customizable settings to suit different community needs.
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
 
----
+        h1, h2 {
+            margin-bottom: 15px;
+            color: #008080;
+        }
 
-## How to Contribute
-We're always looking for contributors who are passionate about sustainability. Here's how you can help:
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Commit your changes and push your branch to GitHub.
-4. Open a pull request and accompany it with details about what was accomplished.
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
 
----
+        li {
+            padding: 8px 0;
+            font-size: 16px;
+        }
 
-## Contact
-For queries and collaboration, email us at blake.meredith1@icloud.com.
+        a {
+            color: #008080;
+            text-decoration: none;
+        }
 
----
+        a:hover {
+            text-decoration: underline;
+        }
 
-### License
-This repository is licensed under the MIT License. See the LICENSE file for more details.
+        button {
+            background-color: #008080;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background-color: #006666;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px 0;
+            background-color: #008080;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Blake's Recycling Logo" class="logo">
+        <h1>Blake's Can & Bottle Recycling</h1>
+    </header>
+
+    <section class="intro">
+        <h2>Welcome!</h2>
+        <p>Blake's Recycling collects cans and bottles in the Narangba area. You can either drop them off at our location or request a pick-up. Let's make a difference together!</p>
+    </section>
+
+    <section class="services">
+        <h2>How It Works</h2>
+        <ul>
+            <li>📦 <strong>Drop-Off:</strong> Bring your cans & bottles to 179 Prosperity Street, Narangba QLD 4504</li>
+            <li>🚗 <strong>Pick-Up:</strong> Call or text Blake to arrange a collection from your home</li>
+            <li>♻️ <strong>Recycling:</strong> All cans and bottles are sorted and recycled responsibly</li>
+        </ul>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Blake</h2>
+        <p>Phone: <a href="tel:0423278213">0423 278 213</a></p>
+        <p>Email: <a href="mailto:blake.meredith1@icloud.com">blake.meredith1@icloud.com</a></p>
+        <p>Address: 179 Prosperity Street, Narangba QLD 4504</p>
+        <button onclick="window.location='tel:0423278213'">Call Blake Now</button>
+    </section>
+
+    <section class="map">
+        <h2>Our Location</h2>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3531.123456!2d153.056789!3d-27.250000!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b9156789abcd123%3A0x123456789abcdef!2s179+Prosperity+St%2C+Narangba+QLD+4504!5e0!3m2!1sen!2sau!4v1700000000000!5m2!1sen!2sau"
+            width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <footer>
+        <p>© 2026 Blake's Can & Bottle Recycling. All rights reserved.</p>
+    </footer>
+</body>
+</html>
